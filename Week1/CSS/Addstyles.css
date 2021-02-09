@@ -1,0 +1,107 @@
+
+
+/*Webpage is not having borders around it*/
+body{
+margin :0px;
+}
+
+/*Screen to be spiltted in to three columns to hold 3 images spaces*/
+.wrapper-courses
+{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+}
+
+/*Set the values for the image*/
+.image-wrapper img{
+height:330px;
+width:100%;
+}
+/* To display some itmes on the left and some on the right*/
+.nav-wrapper{
+display: flex;
+padding: 16px;
+background-color:#FCF3CF;
+justify-content: space-between;
+}
+/* To appear left side menu horizontally*/
+.left-side{
+display: flex;
+}
+
+/*To give some styles to the menu */
+.nav-wrapper >.left-side > div
+{
+  margin-right: 20px; /*Each item should appear 20px apart*/
+  font-size: 0.9em; /*Font is reduced from default*/
+  text-transform: uppercase;/*Font case is changing*/
+}
+
+/* To customize the href tag with some other styles*/
+.nav-link-wrapper
+{
+  height : 22px;
+  border-bottom: 1px solid transparent; /* until hover action occurs the border bottom line will not be visible*/
+  transition: 0.5s;
+}
+/* To remove the default settings of a href tag*/
+.nav-link-wrapper a
+{
+  color:#8a8a8a; /* until hover action occurs the text color will be light*/
+  text-decoration: none;
+  transition: color 0.5s;
+}
+/* When hover action occurs the border bottom line appear as black*/
+.nav-link-wrapper:hover
+{
+  border-bottom: 1px solid black;
+}
+/* When hover action occurs on the item,the text appears as black*/
+.nav-link-wrapper a:hover
+{
+  color:black;
+}
+
+/*To customise the footer at the end*/
+.footer-wrapper{
+font-size: 15px;
+color: blue;
+font-style: italic;
+}
+
+/*STYLESHEET FOR THE HEADER-----STARTS*/
+.UON-heading{
+  padding:35px;
+  /*color:red;*/
+  background-color: #40E0D0;
+  background-image: url("../Images/College.jpg");
+  background-repeat: no-repeat;
+}
+/*STYLESHEET FOR THE HEADER-----ENDS*/
+
+.About-me-wrapper{
+    padding:35px;
+    background-color: #40E0D0;
+}
+.Under-construction{
+
+  padding:60px;
+  background-color: #40E0D0;
+}
+/*Adding style to the text*/
+.left-side-content p{
+font-family: Georgia, serif;
+color: #D35400;
+}
+/*Creating the space for two columns*/
+.split-content{
+  display: grid;
+  grid-template-columns:1fr 1fr;
+}
+/*Arranging the image*/
+.right-side-content img{
+width:300px;
+height:400px;
+margin: 10px auto 20px;
+display: block;
+}
