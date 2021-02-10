@@ -1,0 +1,41 @@
+body{
+  display:grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: auto;
+  grid-template-areas: "header header header"
+                      "nav nav nav"
+                      "main main aside"
+                      "footer footer footer"
+}
+header{
+  color:white;
+  padding:2em;
+  background-color: blue;
+  grid-area: header;
+}
+nav {
+  background-color: yellow;
+  padding:20px;
+  grid-area: nav;
+    }
+  li{
+      display:inline;
+      padding: 260px;
+    }
+main{
+  background-color: darkblue;
+  padding:10px;
+  color:white;
+  grid-area: main;
+}
+aside{
+  background-color: lightgreen;
+  padding:10px;
+  grid-area: aside;
+}
+footer{
+  background-color: darkgreen;
+  padding:5px;
+  grid-area: footer;
+  color:white;
+}
