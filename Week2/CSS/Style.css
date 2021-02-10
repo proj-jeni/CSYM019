@@ -1,0 +1,44 @@
+/*Exercise 4*/
+
+body{
+  margin:0px;
+}
+.header-styles{
+background-color: blue;
+padding:30px;
+color:red;
+}
+.content-wrapper{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width:auto;
+  height:700px;
+}
+.left-links{
+  display:flex;
+  flex-direction:column;
+  padding: 10px;
+  background-color: yellow;
+}
+.middle-content{
+  background-color: darkblue;
+  color:white;
+}
+.right-content{
+  text-align: left;
+    background-color: lightgreen;
+}
+.footer-text-left {
+  font-size:18px;
+  background-color: darkgreen;
+  padding:10px;
+  height:50px;
+}
+.footer-text-left a{
+  color:white;
+}
+a.menu:hover {
+  background-color:yellow;
+  font-size:20px;
+  color:black;
+}

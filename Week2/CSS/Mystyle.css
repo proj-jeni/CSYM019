@@ -1,0 +1,90 @@
+
+/*EXERCISE 1*/
+.bgchange p{
+  background-color: black;
+  color:white;
+}
+.bgchange h2{
+  color:red;
+}
+.textbgchange h2{
+  color:green;
+}
+.textbgchange p{
+  background-color: darkred;
+  color:green;
+}
+
+.changegreen{
+color:green;
+}
+
+
+
+
+
+
+/*EXERCISE 2*/
+.container-wrapper
+{
+display:grid;
+grid-template-rows: 1fr 1fr;
+display: flex;
+}
+.left{
+background-color: lightgreen;
+width:50%;
+}
+.right{
+background-color: yellow;
+width:50%;
+}
+
+
+
+/*EXERCISE 3*/
+.content-holder{
+  display:grid;
+   grid-template-columns:1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   width:200px;
+   height:300px;
+}
+.row1-left-wrapper{
+  padding:7px;
+  font-family: fantasy;
+  font-size: 18px;
+  border-radius: 10px;
+  background: #BADA55;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.row1-right-wrapper{
+  padding:7px;
+  font-family:cursive;
+  font-variant: small-caps;
+  color: blue;
+  border-radius: 20px;
+  background: #BADA55;
+  margin-bottom: 10px;
+}
+
+.row2-left-wrapper{
+  padding:7px;
+  height:400px;
+  width:400px;
+  font-family:sans-serif;
+  border-radius: 10px;
+  background: #FCF3CF;
+  margin-right: 10px;
+}
+.row2-right-wrapper{
+  padding:7px;
+  height:400px;
+  width:400px;
+  font-family:monospace;
+  font-size: 18px;
+  border-radius: 20px;
+  background: pink;
+}
