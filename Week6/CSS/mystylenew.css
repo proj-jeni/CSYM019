@@ -1,0 +1,27 @@
+body{
+  margin:0px;
+}
+.header-styles{
+background-color: blue;
+padding:30px;
+color:white;
+}
+
+
+.middle-content{
+  background-color: lightgrey;
+  color:white;
+  height: 700px;
+  width: 100%;
+}
+
+
+.footer-text-left {
+  font-size:18px;
+  background-color: darkgreen;
+  padding:10px;
+  height:50px;
+}
+.footer-text-left a{
+  color:white;
+}
