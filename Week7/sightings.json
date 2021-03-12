@@ -6,7 +6,7 @@ sightings:[
 "id":1,
 "animal":"Pine Martin",
 "number":4,
-"location":"Marshall woods, Reneham",
+"location":"Marshall woods",
 "date":"2015-09-24",
 "time":"9:30:00",
 "oberver":{
@@ -23,7 +23,7 @@ sightings:[
 "id":2,
 "animal":"Owl",
 "number":5,
-"location":"Marshall woods, Reneham",
+"location":"Marshall woods",
 "date":"2015-09-24",
 "time":"9:30:00",
 "oberver":{
@@ -39,7 +39,7 @@ sightings:[
 "id":3,
 "animal":"Otter",
 "number":6,
-"location":"Marshall woods, Reneham",
+"location":"Marshall woods",
 "date":"2015-09-24",
 "time":"9:30:00",
 "oberver":{
@@ -54,7 +54,7 @@ sightings:[
 "id":7,
 "animal":"Osprey",
 "number":4,
-"location":"Marshall woods, Reneham",
+"location":"Marshall woods",
 "date":"2015-09-24",
 "time":"9:30:00",
 "oberver":{
@@ -63,8 +63,5 @@ sightings:[
 },
 "Observations":"Four Pine Martin. 1 adult.3 juveniles.In wooded area.Adult appeared to be mother.Foraging for food.",
 }
-
-
-
 ]
 }
